@@ -35,7 +35,23 @@ spectro/
         └── main_window.py # PyQt window + PyQtGraph plot
 ```
 
+## Quick start (easiest)
+
+Use the included launcher scripts — they create the virtual environment,
+install dependencies, and start the app automatically.
+
+- **Windows:** double-click **`run.bat`** (or run `run.bat --mock` for simulation).
+- **macOS / Linux:** in a terminal run:
+  ```bash
+  chmod +x run.sh   # first time only
+  ./run.sh          # or ./run.sh --mock
+  ```
+
+The first launch takes a minute to set things up; later launches are fast.
+Prefer to do it manually? See **Installation** below.
+
 ## Installation
+
 
 ```bash
 python -m venv .venv
